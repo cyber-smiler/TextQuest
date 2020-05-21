@@ -175,7 +175,7 @@ namespace TextQuest
                 {
                     if(Adventurer.Health <= 0)
                     {
-                        DialogHelper.Dialog("\nYou have been slain! GAME OVER!\n", ConsoleColor.Red);
+                        DialogHelper.Dialog("\nYou have been slain! Better luck next time!\n", ConsoleColor.Red);
                         continue;
                     }
 
